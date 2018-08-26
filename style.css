@@ -1,0 +1,43 @@
+body{
+    width:100%; /* box quadrado */
+    height:auto;  /* box quadrado */
+    background: -moz-linear-gradient(left, #AE2369, #FD888A);
+    background: -webkit-gradient(linear, left top, right top, from(#AE2369), to(#FD888A));
+    filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#AE2369', EndColorStr='#FD888A');
+    color: #FFF;
+    font-family: "Open Sans", Helvetica, sans-serif, arial;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: solid 2px red;
+    min-height: calc(100vh - 100px);
+}
+
+article .left{
+}
+
+article .right{
+   
+}
+
+img{
+    max-width:100%;
+    height:auto;
+}
+.logo_font_collector{
+    width: 300px;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+footer{
+    height: 200px;
+    flex-grow: 2;
+    border: solid 2px red;
+}
