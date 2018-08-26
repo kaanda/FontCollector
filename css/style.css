@@ -1,0 +1,177 @@
+body{
+    width:100%; 
+    height:auto;  
+    color: #FFF;
+    font-family: "Open Sans", Helvetica, sans-serif, arial;
+}
+
+/*.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+}*/
+.top{
+    height: 758px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;   
+    flex-wrap: wrap; 
+    background: -moz-linear-gradient(left, #AE2369, #FD888A);
+    background: -webkit-gradient(linear, left top, right top, from(#AE2369), to(#FD888A));
+    filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#AE2369', EndColorStr='#FD888A');
+}
+
+img{
+    max-width:100%;
+    height:auto;
+}
+
+button{
+    border: 0;
+    background: url('../img/selo-download-mac-app-store.png');
+    width: 195px;
+    height: 50px;
+
+}
+
+.logo_font_collector{
+    width: 330px;
+}
+
+.logo {
+    flex: 1 0 650px;
+    max-width: 50%;
+    margin: 0 0 13px 30px;
+	align-self: center;
+    text-align: center;  
+}
+
+.description{
+    flex: 2 0 auto;
+    margin: 0 0 50px 15px;
+    align-self: center;
+    
+}
+h1{
+    font-size: 46px;
+    font-weight: bold;
+    line-height: 67px;
+    margin: 40px 0 20px 0;
+}
+
+h2{
+    font-size: 70px;
+    font-weight: bold;
+    line-height: 80px;
+}
+
+.description p{
+    margin-top: 20px;
+    font-size: 28px;
+    line-height: 44px;
+    font-weight: bold;
+    width: 400px;
+}
+
+.bottom{
+    display: flex;
+    height: 530px;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #FFDBE5;
+}
+.video{
+    flex: 1 0 650px;
+    align-self: center;
+}
+
+.tutorial{
+    color: black;
+    flex: 2 0 auto;
+    align-self: center;
+    line-height: 25px;
+}
+
+.p_primary_tutorial{   
+    font-size: 22px;
+    line-height: 38px;
+    width: 367px; 
+}
+
+.p_second_tutorial{
+    font-size: 16px;
+    line-height: 27px;
+    width: 400px;
+    margin-top: 30px;
+    
+}
+
+.tutorial h2{
+    font-size: 30px;
+    line-height: 38px;
+    font-weight: bold;
+    width: 400px; 
+    margin-bottom: 30px; 
+}
+
+
+.footer{
+    display: flex;
+    height: 255px;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: -moz-linear-gradient(left, #AE2369, #FD888A);
+    background: -webkit-gradient(linear, left top, right top, from(#AE2369), to(#FD888A));
+    filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#AE2369', EndColorStr='#FD888A');
+}
+
+.suport{
+    flex: 1 0 auto;
+    width: 50%; 
+    align-self: center;
+    margin-top: 1em;
+}
+
+.requirements{
+    flex: 2 0 50%;
+    align-self: center;
+    margin-top: 4em;
+}
+
+.suport h2{
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    margin: 0 0 0 3.7em;
+}
+
+.suport p{
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: bold;
+    margin: 2em auto;
+    width: 33em;
+}
+
+.requirements p{
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: bold;
+    margin: 0.5em auto;
+    width: 41em;
+}
+
+.social_medias{
+    flex: 1 0 50%;
+    align-self: center;
+}
+
+.social_medias p{
+    font-size: 12px;
+    flex: 1 1 auto;
+    text-align: center;
+}
